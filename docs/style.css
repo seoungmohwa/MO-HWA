@@ -243,7 +243,7 @@
     width: 260px;
     height: 260px;
     position: absolute;
-    top: 10px;
+    top: 0;
     left: 900px;
     background-color: var(--coler-yellowgreen);
     border-radius: 100%;
@@ -265,7 +265,7 @@
     width: 100vw;
     height: 70px;
     background-color: var(--color-green);
-    color: var(--color-white);
+    color: var(--color-orange);
     font-family: var(--font-EN);
     display: flex;
     align-items: center;
@@ -282,7 +282,7 @@
   
   .cover > p {
     display: flex;
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(1rem, 10vw, 2rem);
   }
   
@@ -462,7 +462,7 @@
     position: relative;
     align-items: center;
     margin-right: 60px;
-    margin-left: 270px;
+    margin-left: 348px;
   }
   
   .skill-circle-2,
@@ -671,8 +671,7 @@
   footer > span {
     font-weight: 300;
     font-size: 14px;
-    line-height: 120%;
-    padding-top: 26px;
+    padding-top: 16px;
     letter-spacing: 0.02em;
     display: block;
     color: var(--color-white);
