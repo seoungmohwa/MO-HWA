@@ -97,11 +97,11 @@ const pTag4 = document.querySelector('.forth-parallel')
 const pTag5 = document.querySelector('.five-parallel')
 
 
-const textArr1 = 'SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK///SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK ///'.split(' ')
+const textArr1 = 'SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK /// SCROLL DOWN TO SEE MY WORK ///'.split(' ')
 const textArr2 = 'SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT ///SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT/// SCROLL DOWN TO SEE MY ABOUT ///'.split(' ')
 const textArr3 = 'SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY ABOUT ///'.split(' ')
 const textArr4 = 'SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT //// SCROLL DOWN TO SEE MY CONTACT ////'.split(' ')
-const textArr5 = 'SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY ABOUT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT  ///'.split(' ')
+const textArr5 = 'SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT /// SCROLL DOWN TO SEE MY CONTACT  ///'.split(' ')
 
 
 let count1 = 0
@@ -119,7 +119,7 @@ initTexts(pTag5, textArr5)
 function initTexts(element, textArray) {
   textArray.push(...textArray)
   for (let i = 0; i < textArray.length; i++) {
-    element.innerText += `${textArray[i]}\u00A0\u00A0\u00A0\u00A0`
+    element.innerText += `${textArray[i]}\u00A0\u00A0`
   }
 }
 
